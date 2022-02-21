@@ -7,7 +7,7 @@ var userEmail = document.getElementById('userEmail');
 var userPass = document.getElementById('userPass');
 
 var signInBtn = document.getElementById('signInBtn');
-var userEmailLogin = document.getElementById('userEmail');
+var userEmailLogin = document.getElementById('signInUserEmail');
 var userPassLogin = document.getElementById('signInPass');
 // var signOutBtn = document.getElementById('signOut');
 
@@ -36,7 +36,7 @@ signUpBtn.addEventListener('click', (e) => {
   signUpFun(userName.value,userEmail.value,userPass.value);
 })
 
-signInBtn.addEventListener('click', (e) => {
+signInUserEmail.addEventListener('click', (e) => {
   e.preventDefault();
   signInWtihEmailPass(userEmailLogin.value,userPassLogin.value);
 })
