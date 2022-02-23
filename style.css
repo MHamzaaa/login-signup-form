@@ -272,6 +272,11 @@ section .container.active .signinBx .imgBx{
     section .container .user .formBx{
         width: 100%;
     }
+
+    #loginGoogle{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
 }
 
 
@@ -285,6 +290,23 @@ section .container.active .signinBx .imgBx{
     margin-top: 5px;
 }
 
+#signInSuccess{
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#emailLab1{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+
 #emailLab{
     border: 1px solid black;
     background-color: red;
@@ -293,7 +315,7 @@ section .container.active .signinBx .imgBx{
     padding: 5px;
 }
 
-#passLab{
+#passLab1{
     border: 1px solid black;
     background-color: red;
     color: white;
@@ -302,7 +324,7 @@ section .container.active .signinBx .imgBx{
 }
 
 
-#passLab1{
+#passLab{
     border: 1px solid black;
     background-color: red;
     color: white;
